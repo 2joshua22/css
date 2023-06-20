@@ -1,0 +1,38 @@
+#logo .one,
+#logo .two,
+#logo .three,
+#logo .four,
+#logo .five{
+    width: 20%;
+    transform: none;
+    transition: all 1s ease;
+}
+
+#logo .one:hover{
+    transform: rotate(1turn);
+    /* The rotate() CSS function defines a transformation that rotates an element around a fixed point on the 2D plane, without deforming it. If positive, the movement will be clockwise; if negative, it will be counter-clockwise. */
+}
+
+#logo .two:hover{
+    transform: scale(1.5,0);
+    /* The scale() CSS function defines a transformation that resizes an element on the 2D plane. Because the amount of scaling is defined by a vector, it can resize the horizontal and vertical dimensions at different scales. */
+}
+#logo .three:hover{
+    transform: skew(0,180deg)
+    /* The skew() CSS function defines a transformation that distorts each point within an element on the 2D plane by a certain angle in the horizontal and vertical directions. The effect is as if you grabbed each corner of the element and pulled them along a certain angle.  */
+}
+
+#logo .four:hover{
+    transform: translate(25px,-10px);
+    /* The translate() CSS function repositions an element in the horizontal and/or vertical directions. */
+}
+
+#logo .five:hover{
+    transform: perspective(50px) rotateY(80deg);
+    /* The perspective() CSS function defines a transformation that sets the distance between the user and the z=0 plane, the perspective from which the viewer would be if the 2-dimensional interface were 3-dimensional. */
+}
+
+
+
+
+

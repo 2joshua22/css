@@ -1,0 +1,54 @@
+body div{
+    margin: 10px;
+}
+
+.one{
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    transition: all ease 1000ms;
+    /* ease: increases in velocity towards the middle of the transition, slowing back down at the end. */
+}
+
+.one:hover{
+    transform: rotate(360deg);
+}
+
+.two{
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    transition: all ease-in 1000ms;
+    /* ease-in: starts off slowly, with the transition speed increasing until complete. */
+}
+
+.two:hover{
+    transform: rotate(360deg);
+}
+
+.three{
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    transition: all ease-out 1000ms;
+    /* ease-out: starts transitioning quickly, slowing down the transition continues. */
+}
+
+.three:hover{
+    transform: rotate(360deg);
+}
+
+.four{
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    transition: all 1s linear 1000ms;
+    /* linear: transitions at an even speed. */
+}
+
+.four:hover{
+    transform: rotate(360deg);
+}
+
+/* linear: transitions at an even speed. */
+
