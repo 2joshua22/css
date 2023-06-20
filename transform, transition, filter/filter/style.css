@@ -1,5 +1,11 @@
+.one{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .one img{
-    width: 100%;
+    width: 40%;
+    margin: 10px;
     transition: all 1s ease 300ms;
 }
 
