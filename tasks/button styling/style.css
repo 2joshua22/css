@@ -1,0 +1,96 @@
+.container{
+    border: 1px solid;
+    padding: 20px 20px;
+    width: fit-content;
+}
+
+.link{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #007bff;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.btn{
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 3px;
+}
+
+.primary-btn{
+    background-color: #007bff;
+    color: #fff;
+}
+
+.primary-btn:hover{
+    background-color: #0261c7;
+}
+
+.secondary-btn{
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.secondary-btn:hover{
+    background-color: #596066;
+}
+
+.success-btn{
+    background-color: #28a745;
+    color: #fff;
+}
+
+.success-btn:hover{
+    background-color: #208437;
+}
+
+.danger-btn{
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.danger-btn:hover{
+    background-color: #ac2936;
+}
+
+.warning-btn{
+    background-color: #ffc107;
+    color: #000;
+}
+
+.warning-btn:hover{
+    background-color: #ce9c06;
+}
+
+.info-btn{
+    background-color: #17a2b8;
+    color: #fff;
+}
+
+.info-btn:hover{
+    background-color: #127988;
+}
+
+.light-btn{
+    background-color: #fff;
+    color: #000;
+}
+
+.light-btn:hover{
+    background-color: #c9c9c9;
+}
+
+.dark-btn{
+    background-color: #000;
+    color: #fff;
+}
+
+.dark-btn:hover{
+    background-color: #333333;
+}
