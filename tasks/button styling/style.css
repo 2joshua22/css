@@ -8,11 +8,12 @@
     border: none;
     background-color: transparent;
     cursor: pointer;
-    color: #007bff;
+    color: #035dbd;
+    text-decoration: underline;
 }
 
 .link:hover{
-    text-decoration: underline;
+    color:#348dec;
 }
 
 .btn{
