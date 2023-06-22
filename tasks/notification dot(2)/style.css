@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 20px;
+    box-shadow: 0px 0px 1px 1px gainsboro;
+    padding: 20px;
+}
+
+button{
+    background-color: #096dff;
+    color: #f8f8f8;
+    padding: 8px 14px;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+}
+
+button::after{
+    content: '99+';
+    background-color: #e33444;
+    width: 30px;
+    height: 14px;
+    position: absolute;
+    top:-9px;
+    left:44px;
+    padding: 3.5px 2.5px 0 0;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 10px;
+}
+
+button:hover{
+    background-color: #075ad6;
+}

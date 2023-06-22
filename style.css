@@ -9,8 +9,11 @@ body{
 }
 
 .container div{
-    flex:50%;
-    
+    flex:50%;  
+}
+
+a{
+    text-decoration: none;
 }
 
 @media screen and  (max-width: 800px){
