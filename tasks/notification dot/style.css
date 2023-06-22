@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 20px;
+    box-shadow: 0px 0px 1px 1px gray;
+    padding: 20px;
+}
+
+button{
+    border: none;
+    background-color: #096ffa;
+    padding: 8px 14px;
+    color: #f8f8f8;
+    border-radius: 5px;
+    position:relative;
+}
+
+button::after{
+    position:absolute;
+    content:'';
+    background-color: #db3647;
+    top:-5px;
+    left:59px;
+    height:12px;
+    width: 12px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 0px 0.8px white;
+}
+
+button:hover{
+    background-color: #095fd7;
+}
+
