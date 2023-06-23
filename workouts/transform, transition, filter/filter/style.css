@@ -4,9 +4,11 @@
 }
 
 .one img{
-    width: 40%;
+    width: 45%;
     margin: 10px;
     transition: all 1s ease 300ms;
+    cursor: pointer;
+    flex: 45%;
 }
 
 .one img:hover{
