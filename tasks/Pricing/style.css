@@ -98,7 +98,7 @@ body{
 }
 
 .foot button:hover{
-    background-color:#0965b6;
+    background-color:#052846;
 }
 
 .content{
@@ -133,17 +133,6 @@ body{
     font-size: large;
     font-weight: 300;
 }
-
-/* .free .content p:nth-child(5),
-.free .content p:nth-child(6){
-    text-decoration: line-through;
-    font-weight: 300;
-}
-
-.business .content p:nth-child(6){
-    text-decoration: line-through;
-    font-weight: 300;
-} */
 
 .strike{
     text-decoration: line-through;
