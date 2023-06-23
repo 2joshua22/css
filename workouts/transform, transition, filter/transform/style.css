@@ -18,7 +18,7 @@
     /* The scale() CSS function defines a transformation that resizes an element on the 2D plane. Because the amount of scaling is defined by a vector, it can resize the horizontal and vertical dimensions at different scales. */
 }
 #logo .three:hover{
-    transform: skew(0,180deg)
+    transform: skew(0,180deg);
     /* The skew() CSS function defines a transformation that distorts each point within an element on the 2D plane by a certain angle in the horizontal and vertical directions. The effect is as if you grabbed each corner of the element and pulled them along a certain angle.  */
 }
 
@@ -32,7 +32,9 @@
     /* The perspective() CSS function defines a transformation that sets the distance between the user and the z=0 plane, the perspective from which the viewer would be if the 2-dimensional interface were 3-dimensional. */
 }
 
-
-
-
-
+#logo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px 40px;
+}
