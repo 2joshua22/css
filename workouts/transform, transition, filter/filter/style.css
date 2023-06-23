@@ -1,14 +1,18 @@
-.one{
+.container{
     display: flex;
     flex-wrap: wrap;
+    font-size: x-large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.one img{
-    width: 45%;
-    margin: 10px;
-    transition: all 1s ease 300ms;
-    cursor: pointer;
+.container div{
     flex: 45%;
+    padding: 10px;
+}
+
+img{
+    width: 100%;
+    transition: all 1s ease 300ms;
 }
 
 .one img:hover{
@@ -16,47 +20,56 @@
     /* blur(): Applies a Gaussian blur to the input image.The radius affects the strength of the blur. */
 }
 
-.one img:nth-child(2):hover{
+.two img:hover{
     filter: brightness(2);
     /* brightness(): Applies a linear multiplier to the input image, making it appear more or less bright. Values are linear multipliers on the effect, with 0% creating a completely black image, 100% having no effect, and values over 100% brightening the image. */
 }
 
-.one img:nth-child(3):hover{
+.three img:hover{
     filter:contrast(2);
     /* contrast(): Adjusts the contrast of the input image. A value of 0% makes the image grey, 100% has no effect, and values over 100% create a contrast. */
 }
 
-.one img:nth-child(4):hover{
+.four img:hover{
     filter:drop-shadow(5px 5px 5px black);
     /* The drop-shadow(): applies a drop shadow effect to the input image, drop-shadow(offset-x offset-y blur-radius color) */
 }
 
-.one img:nth-child(5):hover{
+.five img:hover{
     filter:grayscale(1);
     /* grayscale(): Converts the image to grayscale. Values between 0% and 100% produce linear multipliers on the effect. */
 }
 
-.one img:nth-child(6):hover{
+.six img:hover{
     filter:hue-rotate(270deg);
     /* hue-rotate(): Applies a hue rotation. The angle value defines the number of degrees around the hue color circle at which the input samples will be adjusted.  */
 }
 
-.one img:nth-child(7):hover{
+.seven img:hover{
     filter:invert(1);
     /* invert(): Inverts the samples in the input image. Values between 0% and 100% have linear multipliers on the effect.*/
 }
 
-.one img:nth-child(8):hover{
+.eight img:hover{
     filter:opacity(0.5);
     /* opacity(): Applies transparency. 0% makes the image completely transparent and 100% leaves the image unchanged.*/
 }
 
-.one img:nth-child(9):hover{
+.nine img:hover{
     filter:saturate(3);
     /* saturate(): Saturates the image, with 0% being completely unsaturated, 100% leaving the image unchanged, and values of over 100% increasing saturation.*/
 }
 
-.one img:nth-child(10):hover{
+.ten img:hover{
     filter:sepia(1);
     /* sepia(): Converts the image to sepia, with a value of 100% making the image completely sepia and 0% making no change.*/
+}
+
+@media screen and (max-width: 700px) {
+    .container{
+        flex-direction: column;
+    }
+    .container div{
+        flex: 100%;
+    }
 }
