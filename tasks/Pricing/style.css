@@ -34,19 +34,19 @@ body{
 .item{
     text-align: center;
     background-color: #f8f8f8;
-    border-radius: 15px;
-    box-shadow: 0px 0px 1px 0px #8787;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 0px #8787;
     position: relative;
     overflow: hidden;
 }
 
 .head,.content,.foot{
-    padding: 20px;
+    padding: 25px;
 }
 
 .head{
     background-color:#f8f8f8;
-    border-radius: 13px 13px 0 0;
+    border-radius: 5px 5px 0 0;
     color: #0980e8;
     transition: all 0.3s ease;
     cursor: pointer;
@@ -75,11 +75,15 @@ body{
 
 .foot{
     background-color:#f8f8f8;
-    border-radius: 0 0 13px 13px;
+    border-radius: 0 0 5px 5px;
 }
 
 .content{
     background-color: #fff;
+}
+
+.content sub{
+    color: #989090;
 }
 
 .foot a{
@@ -87,11 +91,10 @@ body{
     color: #f8f8f8;
 }
 
-.foot button{
-    padding: 8px 25px;
-    border-radius: 15px;
+.foot a{
+    padding: 8px 35px;
+    border-radius: 20px;
     background-color: #0980e8;
-    border: none;
 }
 
 .foot button:hover{
