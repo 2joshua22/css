@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Roboto:wght@100&display=swap');
 
 *{
     padding: 0;
@@ -42,8 +42,9 @@ img{
 }
 
 .container h2{
+    font-family: 'Roboto', sans-serif;
     font-size: 30px;
+    font-weight: 100;
     color: #6e6e6e;
     padding-top: 5%;
-    font-weight: 100;
 }
