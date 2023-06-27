@@ -57,7 +57,7 @@ body{
 
 .container .inputs{
     position: absolute;
-    padding: 200px 10px 160px 40px;
+    margin: 200px 10px 160px 40px;
     display: flex;
     flex-wrap: wrap;
 }
