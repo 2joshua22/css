@@ -97,6 +97,6 @@ input{
 
 .container a{
     position: absolute;
-    padding: 410px 20px 40px 250px;
+    margin: 410px 20px 40px 250px;
     color: #a5a5a5;
 }
