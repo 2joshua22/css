@@ -19,6 +19,7 @@ body{
     color: #035dbd;
     text-decoration: underline;
     transition: all ease 300ms;
+    cursor: pointer;
 }
 
 .btn{
