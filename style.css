@@ -16,6 +16,10 @@ a{
     text-decoration: none;
 }
 
+.workouts{
+    display: none;
+}
+
 @media screen and  (max-width: 900px){
     .container{
         flex-direction: column;
