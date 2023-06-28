@@ -24,8 +24,11 @@ body{
 
 .logo{
     position: absolute;
-    top:20px;
-    left:20px;
+    top:-395px;
+    left:-235px;
+}
+
+.logo img{
     filter:invert();
     -webkit-user-drag: none;
     -khtml-user-drag: none;
