@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-image: url(images/bg-image.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 110%;
+    background-size: 90%;
+    backdrop-filter: contrast(70%);
+    margin-top: 5px;
+    border-bottom: 10px solid #d9d9d9;
+    font-family: sans-serif;
+    min-width: 1627px;
+}
+
+.container{
+    display: flex;
+    height: 600px;
+    width: 1000px;
+    margin: 80px 200px 0px 200px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    width: 55%;
+    position: relative;
+}
+
+iframe{
+    height: 55%;
+    width: 45%;
+}
+
+input{
+    border: none;
+    padding: 16px 8px;
+    margin-bottom: 15px;
+    width: 100%;
+    outline: none;
+}
+
+.one-two{
+    display: flex;
+    gap:25px;
+}
+
+input:nth-child(3){
+    height: 80px;
+}
+
+h1{
+    font-weight:lighter;
+}
+
+h2{
+    font-style: italic; 
+}
+
+img{
+    position: absolute;
+    top:50px;
+    left:8.5%;
+    width: 55px;
+    height: 50px;
+}
+
+.form h2{
+    position:absolute;
+    top:62px;
+    left:110px
+}
+
+.form h4{
+    position: absolute;
+    top: 120px;
+}
+
+.contact{
+    position: absolute;
+    top:150px
+}
+
+form{
+    position: absolute;
+    top:220px
+}
+
+button{
+    background-color: #149ccc;
+    color: #fff;
+    padding: 12px 35px;
+    border: none;
+    position: relative;
+    top:20px;
+    left:160px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
