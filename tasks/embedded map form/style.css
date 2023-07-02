@@ -48,6 +48,7 @@ input{
     margin-bottom: 15px;
     width: 100%;
     outline: none;
+    color: #8c8886;
 }
 
 .one-two{
@@ -88,12 +89,13 @@ img{
 
 .contact{
     position: absolute;
-    top:150px
+    top:150px;
+    color:#8c8886;
 }
 
 form{
     position: absolute;
-    top:220px
+    top:220px;
 }
 
 button{
