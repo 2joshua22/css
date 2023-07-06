@@ -1,0 +1,399 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+::after, ::before {
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-item1{
+    width: 8.33%;
+    padding: 0 15px;
+}
+
+.flex-item2{
+    width: 16.66%;
+    padding: 0 15px;
+}
+
+.flex-item3{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.flex-item4{
+    width: 33.33%;
+    padding: 0 15px;
+}
+
+.flex-item5{
+    width: 41.66%;
+    padding: 0 15px;
+}
+
+.flex-item6{
+    width: 50%;
+    padding: 0 15px;
+}
+
+.flex-item7{
+    width: 58.33%;
+    padding: 0 15px;
+}
+
+.flex-item8{
+    width: 66.66%;
+    padding: 0 15px;
+}
+
+.flex-item9{
+    width: 75%;
+    padding: 0 15px;
+}
+
+.flex-item10{
+    width: 83.33%;
+    padding: 0 15px;
+}
+
+.flex-item11{
+    width: 91.66%;
+    padding: 0 15px;
+}
+
+.flex-item12{
+    width: 100%;
+    padding: 0 15px;
+}
+
+/* header */
+
+header{
+    background-color: navajowhite;
+    padding: 20px 0;
+}
+
+header .logo{
+    background-color: red;
+    height: 30px;
+}
+
+header .nav-bar{
+    background-color: red;
+    height: 30px;
+}
+
+/* banner */
+
+#banner{
+    background-color: red;
+}
+
+#banner .flex-container{
+    height: 90vh;
+    align-items: center;
+}
+
+#banner .content{
+    background-color: navajowhite;
+    height: 300px;
+}
+
+/* clients */
+
+#clients{
+    background-color: navajowhite;
+    padding: 60px 0;
+}
+
+#clients .client{
+    background-color: red;
+    height: 60px;
+}
+
+/* about */
+
+#about{
+    background-color: red;
+    padding: 120px 0;
+}
+
+#about .right{
+    height: 300px;
+    background-color: navajowhite;
+}
+
+#about .left{
+    height: 100px;
+    background-color: navajowhite;
+    margin-top: 30px;
+}
+
+/* features */
+
+#features{
+    background-color: navajowhite;
+    padding: 60px 0;
+}
+
+#features .feature{
+    background-color: red;
+    height: 100px;
+}
+
+/* tabs */
+
+#tabs{
+    background-color: red;
+    padding: 60px 0;
+}
+
+#tabs .head{
+    background-color: navajowhite;
+    height: 80px;
+}
+
+#tabs .tab{
+    background-color: navajowhite;
+    height: 400px;
+}
+
+#tabs .tab-content{
+    margin-top: 30px;
+}
+
+/* services */
+
+#services{
+    background-color: navajowhite;
+    padding: 60px 0;
+}
+
+#services h2{
+    background-color: red;
+    height: 60px;
+}
+
+#services .service{
+    background-color: red;
+    height:200px;
+    margin-top: 30px;
+}
+
+/* portfolio */
+
+#portfolio{
+    background-color: red;
+    padding: 60px 0;
+}
+
+#portfolio h2{
+    background-color: navajowhite;
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+#portfolio p{
+    background-color: navajowhite;
+    height: 30px;
+}
+
+#portfolio ul{
+    list-style: none;
+    text-align: center;
+    margin: 30px 0;
+}
+
+#portfolio li{
+    display: inline-block;
+    background-color: navajowhite;
+    height: 30px;
+    width:50px ;
+}
+
+#portfolio .projects{
+    background-color: navajowhite;
+    height: 300px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+/* testimonials */
+
+#testimonials{
+    background-color: navajowhite;
+    padding: 60px 0;
+}
+
+#testimonials h2{
+    background-color: red;
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+#testimonials p{
+    background-color: red;
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+#testimonials .testimonial{
+    background-color: red;
+    height: 240px;
+}
+
+/* pricing */
+
+#pricing{
+    background-color: red;
+    padding: 120px 0px;
+}
+
+#pricing h2{
+    background-color: navajowhite;
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+#pricing p{
+    background-color: navajowhite;
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+#pricing .price{
+    background-color: navajowhite;
+    height: 400px;
+}
+
+/* questions */
+
+#questions{
+    background-color: navajowhite;
+    padding: 60px 0px;
+}
+
+#questions h2{
+    background-color: red;
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+#questions .question{
+    background-color: red;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+/* team */
+
+#team{
+    background-color: red;
+    padding: 60px 0px;
+}
+
+#team h2{
+    background-color: navajowhite;
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+#team p{
+    background-color: navajowhite;
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+#team .player{
+    background-color: navajowhite;
+    height: 300px;
+}
+
+/* contact */
+
+#contact{
+    background-color: navajowhite;
+    padding: 60px 0px;
+}
+
+#contact h2{
+    background-color: red;
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+#contact p{
+    background-color: red;
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+#contact .form{
+    background-color: red;
+    height: 330px;
+}
+
+#contact .address{
+    background-color: red;
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+#contact .details{
+    background-color: red;
+    height: 150px;
+}
+
+/* footer */
+
+#up{
+    background-color: red;
+    padding: 60px 0px;
+}
+
+#up .contacts{
+    background-color: navajowhite;
+    height: 250px;
+}
+
+#up .links{
+    background-color: navajowhite;
+    height: 250px;
+}
+
+#up .services{
+    background-color: navajowhite;
+    height: 250px;
+}
+
+#up .newsletter{
+    background-color: navajowhite;
+    height: 250px;
+}
+
+#bottom{
+    background-color: navajowhite;
+    padding: 30px 0;
+}
+
+#bottom .copy{
+    background-color: red;
+    height: 30px;
+}
+
+#bottom .socials{
+    background-color: red;
+    height: 30px;
+}
