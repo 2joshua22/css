@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width:1440px;
+    margin: 0 auto;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-items1{
+    width: 8.33%;
+    padding: 0 15px;
+}
+
+.flex-items2{
+    width: 16.66%;
+    padding: 0 15px;
+}
+
+.flex-items3{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.flex-items4{
+    width: 33.33%;
+    padding: 0 15px;
+}
+
+.flex-items5{
+    width: 41.66%;
+    padding: 0 15px;
+}
+
+.flex-items6{
+    width: 50%;
+    padding: 0 15px;
+}
+
+.flex-items7{
+    width: 58.33%;
+    padding: 0 15px;
+}
+
+.flex-items8{
+    width: 66.66%;
+    padding: 0 15px;
+}
+
+.flex-items9{
+    width: 75%;
+    padding: 0 15px;
+}
+
+.flex-items10{
+    width: 83.33%;
+    padding: 0 15px;
+}
+
+.flex-items11{
+    width: 91.66%;
+    padding: 0 15px;
+}
+
+.flex-items12{
+    width: 100%;
+    padding: 0 15px;
+}
+
+/* header  */
+
+header{
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 10;
+    font-family: 'Poppins', sans-serif;
+}
+
+header .flex-container{
+    height: 80px;
+    align-items: center;
+}
+
+header h1{
+    font-weight: 600;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+header .one span{
+    color: #e03a3c;
+}
+
+header .two{
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+    position: relative;
+}
+
+header ul li a{
+    padding-left: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all ease 0.3s;
+}
+
+header ul li a:hover,.active{
+    color: #e03a3c;
+}
+
+header ul li a:last-child{
+    padding-left: 50px;
+}
+
+header ul a.drop-down{
+    position: relative;
+}
+
+header ul a.drop-down::after{
+    content: '';
+    background-image: url(../images/chevron-down.svg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0px;
+    left: 95px;
+    transform: scale(0.75);
+}
+
+.drop{
+    transition: all ease 0.3s;
+    background-color: #fff;
+    position: absolute;
+    top:40px;
+    left: 30px;
+    min-width: 200px;
+    visibility: hidden;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+header ul.drop.two{
+    left: 190px;
+}
+
+header ul li ul a{
+    padding: 0px;
+    transition: none; 
+}
+
+header ul li ul li{
+    padding: 10px 20px;
+}
+
+header ul li ul a.drop-down:after{
+    height: 80%;
+    top: -49px;
+    transform: rotate(270deg);
+}
+
+header .two{
+    justify-content: flex-end;
+}
+
+header .link{
+    margin-left: 30px;
+    padding: 8px 25px;
+    background-color: #e03a3c;
+    color: #fff;
+    border-radius: 5px;
+    transition: all ease 0.5s;
+}
+
+header .link:hover{
+    background-color: black;
+}
+
+/* banner */
+
+#banner::before{
+    content: '';
+    background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    filter: brightness(0.4);
+}
+
+#banner{
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+}
+
+#banner .flex-container{
+    height: 100vh;
+    align-items: center;
+    position: relative;
+}
+
+#banner h1{
+    color: #fff;
+    font-size: 55px;
+}
+
+#banner h2{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+#banner a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#banner .link2{
+    display: inline-block;
+    margin-top:30px;
+    padding: 16px 44px;
+    background-color: #e03a3c;
+    color: #fff;
+    border-radius: 5px;
+    transition: all ease 0.5s;
+}
+
+#banner .link2:hover{
+    outline: 1px solid white;
+    background-color: transparent;
+}
+
+/* slider  */
+
+#slider img{
+    width: 100%;
+    height: 100%;
+    opacity:0.5;
+    filter: grayscale(100);
+}
+
+#slider img:hover{
+    opacity:1;
+    filter: grayscale(0);
+}
+
+#slider .flex-container{
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all ease 0.3s;
+}
+
+#slider .slider img{
+    width: 2em;
+}
